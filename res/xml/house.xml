@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.hct.scene.launcher">
+	<scene launcher:scene="house" />
+    <wallpaper launcher:wallpaper="@null" />
+    <!-- Far-left screen [0] -->
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.ClockFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/clock"
+       launcher:container="-102"
+       launcher:screen="1"
+       launcher:x="0"
+       launcher:y="0"
+       launcher:spanX="4"
+       launcher:spanY="3"/>
+
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.CalendarFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/calendar"
+       launcher:container="-102"
+       launcher:screen="1"
+       launcher:x="0"
+       launcher:y="2"
+       launcher:spanX="4"
+       launcher:spanY="2"/>
+
+     <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.PhoneMsgFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/phone_message"
+       launcher:container="-102"
+       launcher:screen="1"
+       launcher:x="0"
+       launcher:y="2"
+       launcher:spanX="4"
+       launcher:spanY="3"/>
+    <!-- Left screen [1] -->
+    
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.WallLampFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/wall_lamp"
+       launcher:container="-102"
+       launcher:screen="2"
+       launcher:x="2"
+       launcher:y="0"
+       launcher:spanX="2"
+       launcher:spanY="1"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.CameraZoneFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/camera_zone"
+       launcher:container="-102"
+       launcher:screen="2"
+       launcher:x="0"
+       launcher:y="1"
+       launcher:spanX="4"
+       launcher:spanY="2"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.GlobeFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/globe"
+       launcher:container="-102"
+       launcher:screen="2"
+       launcher:x="0"
+       launcher:y="3"
+       launcher:spanX="2"
+       launcher:spanY="2"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.SofaFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/sofa"
+       launcher:container="-102"
+       launcher:screen="2"
+       launcher:x="1"
+       launcher:y="3"
+       launcher:spanX="4"
+       launcher:spanY="2"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.ChatFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/qq"
+       launcher:container="-102"
+       launcher:screen="2"
+       launcher:x="3"
+       launcher:y="3"
+       launcher:spanX="1"
+       launcher:spanY="1"/>
+    
+    <!-- Middle screen [2] -->
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.WindowFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/window"
+       launcher:container="-102"
+       launcher:screen="3"
+       launcher:x="0"
+       launcher:y="0"
+       launcher:spanX="4"
+       launcher:spanY="5"/>
+    
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.SofaCutFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/sofa"
+       launcher:container="-102"
+       launcher:screen="3"
+       launcher:x="0"
+       launcher:y="3"
+       launcher:spanX="2"
+       launcher:spanY="2"/>
+    
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.EaselFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/easel"
+       launcher:container="-102"
+       launcher:screen="3"
+       launcher:x="2"
+       launcher:y="2"
+       launcher:spanX="2"
+       launcher:spanY="3"/>
+
+    <!-- Right screen [3] -->
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.PhotoFrameFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/photo_frame"
+       launcher:container="-102"
+       launcher:screen="4"
+       launcher:x="0"
+       launcher:y="0"
+       launcher:spanX="2"
+       launcher:spanY="3"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.SofaSingleFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/sofa"
+       launcher:container="-102"
+       launcher:screen="4"
+       launcher:x="0"
+       launcher:y="2"
+       launcher:spanX="3"
+       launcher:spanY="3"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.MusicFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/music"
+       launcher:container="-102"
+       launcher:screen="4"
+       launcher:x="0"
+       launcher:y="2"
+       launcher:spanX="3"
+       launcher:spanY="3"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.BookcaseFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/bookcase"
+       launcher:container="-102"
+       launcher:screen="4"
+       launcher:x="2"
+       launcher:y="0"
+       launcher:spanX="2"
+       launcher:spanY="5"/>
+
+    <!-- Far-right screen [4] -->
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.ShelfFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/shelf"
+       launcher:container="-102"
+       launcher:screen="5"
+       launcher:x="0"
+       launcher:y="0"
+       launcher:spanX="3"
+       launcher:spanY="4"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.ShowcaseFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/showcase"
+       launcher:container="-102"
+       launcher:screen="5"
+       launcher:x="3"
+       launcher:y="0"
+       launcher:spanX="3"
+       launcher:spanY="4"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.ToyFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/toy"
+       launcher:container="-102"
+       launcher:screen="5"
+       launcher:x="2"
+       launcher:y="3"
+       launcher:spanX="2"
+       launcher:spanY="2"/>
+    
+   <!-- Far-right screen [5] -->
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.ShowcaseCutFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/showcase"
+       launcher:container="-102"
+       launcher:screen="6"
+       launcher:x="0"
+       launcher:y="0"
+       launcher:spanX="2"
+       launcher:spanY="4"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.NotesFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/notes"
+       launcher:container="-102"
+       launcher:screen="6"
+       launcher:x="0"
+       launcher:y="1"
+       launcher:spanX="2"
+       launcher:spanY="2"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.ImageFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/image"
+       launcher:container="-102"
+       launcher:screen="6"
+       launcher:x="1"
+       launcher:y="0"
+       launcher:spanX="2"
+       launcher:spanY="2"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.RadioFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/radio"
+       launcher:container="-102"
+       launcher:screen="6"
+       launcher:x="2"
+       launcher:y="1"
+       launcher:spanX="2"
+       launcher:spanY="3"/>
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.ComputerFurniture"
+       launcher:furnitureStyle="@integer/config_house_style"
+       launcher:title="@string/computer"
+       launcher:container="-102"
+       launcher:screen="6"
+       launcher:x="0"
+       launcher:y="3"
+       launcher:spanX="4"
+       launcher:spanY="2"/>
+    
+    <!-- pet 
+    <furniture
+       launcher:furnitureClassName="com.hct.scene.launcher2.PetFurniture"
+       launcher:furnitureStyle="0"
+       launcher:title="@null"
+       launcher:container="-102"
+       launcher:screen="2"
+       launcher:x="2"
+       launcher:y="4"
+       launcher:spanX="1"
+       launcher:spanY="1"/>
+   -->
+
+ <!-- bookshelf default item, container="-103", added by hct lijunyi, 20130129 -->
+    <bookshelf
+        launcher:className="com.android.camera.CameraLauncher"
+        launcher:container="-103"
+        launcher:packageName="com.android.gallery3d"
+        launcher:x="0"
+        launcher:y="1" />
+    <bookshelf
+        launcher:className="com.android.gallery3d.app.Gallery"
+        launcher:container="-103"
+        launcher:packageName="com.android.gallery3d"
+        launcher:x="0"
+        launcher:y="0" />
+    <bookshelf
+        launcher:className="com.android.settings.Settings"
+        launcher:container="-103"
+        launcher:packageName="com.android.settings"
+        launcher:x="1"
+        launcher:y="0" />
+    <bookshelf
+        launcher:className="com.android.contacts.activities.DialtactsActivity"
+        launcher:container="-103"
+        launcher:packageName="com.android.contacts"
+        launcher:x="1"
+        launcher:y="1" />
+    <bookshelf
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:container="-103"
+        launcher:packageName="com.android.contacts"
+        launcher:x="0"
+        launcher:y="2" />
+    <bookshelf
+        launcher:className="com.android.mms.ui.BootActivity"
+        launcher:container="-103"
+        launcher:packageName="com.android.mms"
+        launcher:x="1"
+        launcher:y="3" />
+    <bookshelf
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:container="-103"
+        launcher:packageName="com.android.browser"
+        launcher:x="0"
+        launcher:y="4" />
+</favorites>

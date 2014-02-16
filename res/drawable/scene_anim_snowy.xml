@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:visible="true" android:oneshot="true">
+    <item android:drawable="@drawable/snowy_01" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_02" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_03" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_04" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_05" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_06" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_07" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_08" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_09" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/snowy_10" android:duration="@integer/weather_scene_anim_duration"/>   
+</animation-list>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- create by hct lijunyi, 20130128 -->
+
+<!-- Notice: screen = y * CountNumberX + x -->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.hct.scene.launcher" >
+
+    <favorite
+        launcher:className="com.android.camera.Camera"
+        launcher:container="-103"
+        launcher:packageName="com.android.camera"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.android.gallery3d.app.Gallery"
+        launcher:container="-103"
+        launcher:packageName="com.android.gallery3d"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.settings.Settings"
+        launcher:container="-103"
+        launcher:packageName="com.android.settings"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.contacts.activities.DialtactsActivity"
+        launcher:container="-103"
+        launcher:packageName="com.android.contacts"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:container="-103"
+        launcher:packageName="com.android.contacts"
+        launcher:screen="4"
+        launcher:x="0"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.android.mms.ui.BootActivity"
+        launcher:container="-103"
+        launcher:packageName="com.android.mms"
+        launcher:screen="7"
+        launcher:x="1"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:container="-103"
+        launcher:packageName="com.android.browser"
+        launcher:screen="8"
+        launcher:x="0"
+        launcher:y="4" />
+
+</favorites>

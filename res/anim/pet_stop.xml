@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:oneshot="true" >
+     <!-- <item android:drawable="@drawable/pet_run_stop" android:duration="1000" /> -->
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_idle_1" android:duration="300" />
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_idle_1" android:duration="300" />
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_idle_1" android:duration="300" />
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_idle_1" android:duration="300" />
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     
+     <item android:drawable="@drawable/pet_turn_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_idle_1" android:duration="300" />
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_turn_1" android:duration="1500" />
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_idle_1" android:duration="300" />
+     <item android:drawable="@drawable/pet_idle_0" android:duration="1500" />
+     <item android:drawable="@drawable/pet_sleep_0" android:duration="1000" />
+     <item android:drawable="@drawable/pet_sleep_1" android:duration="2000" />
+     <item android:drawable="@drawable/pet_sleep_2" android:duration="2000" />
+     <item android:drawable="@drawable/pet_sleep_1" android:duration="2000" />
+     <item android:drawable="@drawable/pet_sleep_5" android:duration="2000" />
+     <item android:drawable="@drawable/pet_sleep_2" android:duration="2000" />
+     <item android:drawable="@drawable/pet_sleep_1" android:duration="2000" />
+</animation-list>

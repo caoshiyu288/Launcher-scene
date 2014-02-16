@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- create by hct lijunyi, 20130129 -->
+
+<com.hct.scene.launcher2.BooksSelector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bookshelf="http://schemas.android.com/apk/res/com.hct.scene.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bookshelf_background_selector" >
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/bookshelf_background_btn"
+        android:gravity="center"
+        android:text="@string/bookshelf_btn_info"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <com.hct.scene.launcher2.Indicator
+        android:id="@+id/pageIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnOk"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="0dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/pageIndicator"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true" >
+
+        <com.hct.scene.launcher2.SceneShelfBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            bookshelf:background_show="false"
+            bookshelf:board_number="4"
+            bookshelf:default_board="true" />
+
+        <com.hct.scene.launcher2.BooksDisplay
+            android:id="@+id/layoutBookcaseDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="17dp" />
+    </FrameLayout>
+
+</com.hct.scene.launcher2.BooksSelector>

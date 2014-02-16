@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- create by hct lijunyi, 20130126 -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bookshelf="http://schemas.android.com/apk/res/com.hct.scene.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.hct.scene.launcher2.SceneShelfBackground
+        android:id="@+id/shelfBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        bookshelf:background_show="true"
+        bookshelf:board_number="5"
+        bookshelf:default_board="false" />
+
+    <com.hct.scene.launcher2.SceneShelfDisplay
+        android:id="@+id/shelfDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+</FrameLayout>

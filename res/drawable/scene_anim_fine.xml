@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:visible="true" android:oneshot="true">
+    <item android:drawable="@drawable/fine_02" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/fine_04" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/fine_06" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/fine_08" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/fine_10" android:duration="@integer/weather_scene_anim_duration"/>
+</animation-list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- selector image in gridview -->
+    <dimen name="bookshelf_item_width">65dp</dimen>
+    <dimen name="bookshelf_item_height">75dp</dimen>
+        
+    <dimen name="bookshelf_layout_marginTop">20dp</dimen>
+
+    <dimen name="book_selector_offset_ver">15dp</dimen>
+    <!-- end of added by hct lijunyi, 20130201 -->
+
+</resources>
+

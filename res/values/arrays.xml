@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="market_app" translatable="false">
+        <item>"com.zmapp"</item>
+        <item>"com.zmapp.activity.LogoActivity"</item>
+    </string-array>
+ 
+    <array name="pre_shortcut_info" translatable="false">
+        <item>pre_shortcut1</item>
+    </array>
+    
+    <string-array name="pre_apk_filename" translatable="false">
+        <item>TempleRun.apk</item>             
+    </string-array>    
+    
+    <string-array name="pre_apk_packname" translatable="false">
+        <item>com.imangi.templerun</item>           
+    </string-array>
+    <string-array name="other_launcher_info" translatable="false">
+        <item>com.android.launcher</item>           
+        <item>com.android.launcher2.Launcher</item>           
+    </string-array>
+    <!--  
+    <array name="house_bkg" translate="false">
+        <item>@drawable/wallbg00</item>
+        <item>@drawable/wallbg01</item>
+        <item>@drawable/wallbg02</item>
+        <item>@drawable/wallbg03</item>
+        <item>@drawable/wallbg04</item>
+        <item>@drawable/wallbg05</item>
+        <item>@drawable/wallbg06</item>
+        <item>@drawable/wallbg07</item>
+    </array>
+    <array name="house_princess_bkg" translate="false">
+        <item>@drawable/wallbg00_princess</item>
+        <item>@drawable/wallbg01_princess</item>
+        <item>@drawable/wallbg02_princess</item>
+        <item>@drawable/wallbg03_princess</item>
+        <item>@drawable/wallbg04_princess</item>
+        <item>@drawable/wallbg05_princess</item>
+        <item>@drawable/wallbg06_princess</item>
+        <item>@drawable/wallbg07_princess</item>
+    </array>
+    -->
+    <string-array name="house_bkg" translate="false">
+        <item>wallbg00</item>
+        <item>wallbg01</item>
+        <item>wallbg02</item>
+        <item>wallbg03</item>
+        <item>wallbg04</item>
+        <item>wallbg05</item>
+        <item>wallbg06</item>
+        <item>wallbg07</item>
+    </string-array>
+    <string-array name="house_princess_bkg" translate="false">
+        <item>wallbg00_princess</item>
+        <item>wallbg01_princess</item>
+        <item>wallbg02_princess</item>
+        <item>wallbg03_princess</item>
+        <item>wallbg04_princess</item>
+        <item>wallbg05_princess</item>
+        <item>wallbg06_princess</item>
+        <item>wallbg07_princess</item>
+    </string-array>
+    <string-array name="furniture_style" translatable="false">
+        <item>@string/fresh</item>           
+        <item>@string/princess</item>           
+    </string-array>
+    <array name="house_wall" translate="false">
+        <item>@drawable/wall_fresh</item>
+        <item>@drawable/wall_princess</item>
+    </array>  
+    <array name="ClockFurniture" translatable="false">
+        <item>@drawable/clock_thumnail_fresh</item>
+        <item>@drawable/clock_thumnail_princess</item>           
+    </array>
+    <array name="CalendarFurniture" translatable="false">
+        <item>@drawable/calendar_thumnail_fresh</item>           
+        <item>@drawable/calendar_thumnail_princess</item>           
+    </array>
+    <array name="PhoneMsgFurniture" translatable="false">
+        <item>@drawable/phonemsg_thumnail_fresh</item>           
+        <item>@drawable/phonemsg_thumnail_princess</item>           
+    </array>
+    <array name="WallLampFurniture" translatable="false">
+        <item>@drawable/walllamp_thumnail_fresh</item>           
+        <item>@drawable/walllamp_thumnail_princess</item>           
+    </array>
+    <array name="CameraZoneFurniture" translatable="false">
+        <item>@drawable/camerazone_thumnail_fresh</item>           
+        <item>@drawable/camerazone_thumnail_princess</item>           
+    </array>
+    <array name="GlobeFurniture" translatable="false">
+        <item>@drawable/globe_thumnail_fresh</item>           
+        <item>@drawable/globe_thumnail_princess</item>           
+    </array>
+    <array name="SofaFurniture" translatable="false">
+        <item>@drawable/sofa_thumnail_fresh</item>           
+        <item>@drawable/sofa_thumnail_princess</item>           
+    </array>
+    <array name="SofaCutFurniture" translatable="false">
+        <item>@drawable/sofa_thumnail_fresh</item>           
+        <item>@drawable/sofa_thumnail_princess</item>           
+    </array>
+    <array name="ChatFurniture" translatable="false">
+        <item>@drawable/chat_thumnail_fresh</item>           
+        <item>@drawable/chat_thumnail_princess</item>           
+    </array>
+    <array name="WindowFurniture" translatable="false">
+        <item>@drawable/window_thumnail_fresh</item>           
+        <item>@drawable/window_thumnail_princess</item>           
+    </array>
+    <array name="EaselFurniture" translatable="false">
+        <item>@drawable/easel_thumnail_fresh</item>           
+        <item>@drawable/easel_thumnail_princess</item>           
+    </array>
+    <array name="PhotoFrameFurniture" translatable="false">
+        <item>@drawable/photoframe_thumnail_fresh</item>           
+        <item>@drawable/photoframe_thumnail_princess</item>           
+    </array>
+    <array name="MusicFurniture" translatable="false">
+        <item>@drawable/music_thumnail_fresh</item>           
+        <item>@drawable/music_thumnail_princess</item>           
+    </array>
+    <array name="BookcaseFurniture" translatable="false">
+        <item>@drawable/bookcase_thumnail_fresh</item>           
+        <item>@drawable/bookcase_thumnail_princess</item>           
+    </array>
+    <array name="ShelfFurniture" translatable="false">
+        <item>@drawable/shelf_thumnail_fresh</item>           
+        <item>@drawable/shelf_thumnail_princess</item>           
+    </array>
+    <array name="ShowcaseFurniture" translatable="false">
+        <item>@drawable/showcase_thumnail_fresh</item>           
+        <item>@drawable/showcase_thumnail_princess</item>           
+    </array>
+    <array name="ShowcaseCutFurniture" translatable="false">
+        <item>@drawable/showcase_thumnail_fresh</item>           
+        <item>@drawable/showcase_thumnail_princess</item>           
+    </array>
+    <array name="ToyFurniture" translatable="false">
+        <item>@drawable/toy_thumnail_fresh</item>           
+        <item>@drawable/toy_thumnail_princess</item>           
+    </array>
+    <array name="NotesFurniture" translatable="false">
+        <item>@drawable/notes_thumnail_fresh</item>           
+        <item>@drawable/notes_thumnail_princess</item>           
+    </array>
+    <array name="ImageFurniture" translatable="false">
+        <item>@drawable/image_thumnail_fresh</item>           
+        <item>@drawable/image_thumnail_princess</item>           
+    </array>
+    <array name="RadioFurniture" translatable="false">
+        <item>@drawable/radio_thumnail_fresh</item>           
+        <item>@drawable/radio_thumnail_princess</item>           
+    </array>
+    <array name="ComputerFurniture" translatable="false">
+        <item>@drawable/computer_thumnail_fresh</item>           
+        <item>@drawable/computer_thumnail_princess</item>           
+    </array>
+    
+    <!-- weather, added by shi yunlong, begin -->
+    <array name="window_bg" translatable="false">
+        <item>@drawable/window_fresh</item>
+        <item>@drawable/window_princess</item>
+        </array>
+    <array name="easel_bg" translatable="false">
+        <item>@drawable/easel_fresh</item>
+        <item>@drawable/easel_princess</item>
+        </array>
+    <string-array name="all_weathers" translatable="false">
+        <item>fine</item>
+		<item>cloudy</item>
+        <item>rainy</item>
+        <item>snowy</item>
+        </string-array>
+    <array name="scene_backgrounds" translatable="false">
+        <item>@null</item>
+        <item>@drawable/scene_bg_cloudy</item>
+        <item>@drawable/scene_bg_rainy</item>
+        <item>@drawable/scene_bg_snowy</item>
+        </array>
+    <array name="scene_animations" translatable="false">
+        <item>@drawable/scene_anim_fine</item>
+        <item>@drawable/scene_anim_cloudy</item>
+        <item>@drawable/scene_anim_rainy</item>
+        <item>@drawable/scene_anim_snowy</item>
+        </array>
+    <string-array name="weather_terms" translatable="true">
+        <item>@string/weather_fine</item>
+		<item>@string/weather_cloudy</item>
+        <item>@string/weather_rainy</item>
+        <item>@string/weather_snowy</item>
+        </string-array>
+    <!-- weather, added by shi yunlong, end -->
+
+    <!-- added by hct lijunyi, 20130126 -->
+    <!-- image betwwen board -->
+    <string-array name="shelf_board_background" translatable="false">
+        <item>@drawable/board_background_null</item>
+        <item>@drawable/board_background_2</item>
+        <item>@drawable/board_background_3</item>
+        <item>@drawable/board_background_4</item>
+        <item>@drawable/board_background_null</item>
+    </string-array>
+
+    <!-- board style -->
+    <string-array name="shelf_board_default" translatable="false">
+        <item>@drawable/scene_shelf_board_default</item>
+        <item>@drawable/scene_shelf_board_default</item>
+        <item>@drawable/scene_shelf_board_default</item>
+        <item>@drawable/scene_shelf_board_default</item>
+        <item>@drawable/scene_shelf_board_default</item>
+    </string-array>
+
+    <string-array name="shelf_board_wind" translatable="false">
+        <item>@drawable/scene_shelf_board_wind_1</item>
+        <item>@drawable/scene_shelf_board_wind_2</item>
+        <item>@drawable/scene_shelf_board_wind_3</item>
+        <item>@drawable/scene_shelf_board_wind_4</item>
+        <item>@drawable/scene_shelf_board_wind_5</item>
+    </string-array>
+
+    <string-array name="shelf_board_princess" translatable="false">
+        <item>@drawable/scene_shelf_board_princess_1</item>
+        <item>@drawable/scene_shelf_board_princess_2</item>
+        <item>@drawable/scene_shelf_board_princess_3</item>
+        <item>@drawable/scene_shelf_board_princess_4</item>
+        <item>@drawable/scene_shelf_board_princess_5</item>
+    </string-array>
+    <!-- end of added by hct lijunyi, 20130126 -->
+    <!-- add by xuejin -->
+    <string-array name="book_reading" translatable="false">
+        <item>"com.iyd.reader.ReadingJoy"</item>
+        <item>"com.sensky.sunshinereader.logo.logo"</item>
+        <item>"com.chaozh.iReaderFree15"</item>
+        <item>"com.chaozh.iReader.ui.activity.WelcomeActivity"</item>
+    </string-array>
+    
+    <!-- add by zhangcy -->
+    <!-- clock -->
+    <string-array name="house1clocktype" translate="false">
+        <item>clock_fresh</item>
+        <item>hour_fresh</item>
+        <item>minute_fresh</item>
+        <item>clock_princess</item>
+        <item>hour_princess</item>
+        <item>minute_princess</item>
+        <item>bob_princess</item>
+    </string-array>
+    
+    <array name="house1clock" translate="false">
+        <item>@drawable/house1_clock_r_clock</item>
+        <item>@drawable/house1_clock_r_hour</item>
+        <item>@drawable/house1_clock_r_minute</item>
+        <item>@drawable/house1_clock_p_clock</item>
+        <item>@drawable/house1_clock_p_hour</item>
+        <item>@drawable/house1_clock_p_minute</item>
+        <item>@drawable/house1_clock_p_bob</item>
+    </array>
+    
+    <!-- calendar -->
+    <string-array name="house1calendartype" translate="false">
+        <item>calendar_fresh</item>
+        <item>calendarbg_fresh</item>
+        <item>calendar_princess</item>
+        <item>calendarbg_princess</item>
+    </string-array>
+    
+    <array name="house1calendar" translate="false">
+        <item>@drawable/house1_calendar_r_calendar</item>
+        <item>@drawable/house1_calendar_r_calendarbg</item>
+        <item>@drawable/house1_calendar_p_calendar</item>
+        <item>@drawable/house1_calendar_p_calendarbg</item>
+    </array>
+    <!-- callmsg -->
+        <string-array name="house1callmsgtype" translate="false">
+        <item>call_fresh</item>
+        <item>callmsg_fresh</item>
+        <item>forcer_fresh</item>
+        <item>left_fresh</item>
+        <item>msg_fresh</item>
+        <item>right_fresh</item>
+        <item>call_princess</item>
+        <item>callmsg_princess</item>
+        <item>forcer_princess</item>
+        <item>left_princess</item>
+        <item>msg_princess</item>
+        <item>right_princess</item>
+    </string-array>
+    
+    <array name="house1callmsg" translate="false">
+        <item>@drawable/house1_callmsg_r_call</item>
+        <item>@drawable/house1_callmsg_r_callandmsg</item>
+        <item>@drawable/house1_callmsg_r_forcer</item>
+        <item>@drawable/house1_callmsg_r_left</item>
+        <item>@drawable/house1_callmsg_r_msg</item>
+        <item>@drawable/house1_callmsg_r_right</item>
+        <item>@drawable/house1_callmsg_p_call</item>
+        <item>@drawable/house1_callmsg_p_callandmsg</item>
+        <item>@drawable/house1_callmsg_p_forcer</item>
+        <item>@drawable/house1_callmsg_p_left</item>
+        <item>@drawable/house1_callmsg_p_msg</item>
+        <item>@drawable/house1_callmsg_p_right</item>
+    </array>
+        <!-- add for workspace effect!!! -->
+    <string-array name="workspace_effect" translatable="false">
+        <item>rand_effect</item>
+        <item>classic_effect</item>
+        <item>wave_effect</item>
+        <item>fade_effect</item>
+        <item>flip_effect</item>
+        <item>windmill_effect</item>
+        <item>cube_effect</item>
+        <item>photowall_effect</item>
+        <item>push_effect</item>
+        <item>updown_effect</item>
+    </string-array>
+        <!-- add for apps effect!!! -->
+    <string-array name="apps_effect" translatable="false">
+        <item>apps_rand_effect</item>
+        <item>apps_classic_effect</item>
+        <item>apps_fade_effect</item>
+        <item>apps_flip_effect</item>
+        <item>apps_windmill_effect</item>
+        <item>apps_cube_effect</item>
+        <item>apps_blind_effect</item>
+        <item>apps_photowall_effect</item>
+        <item>apps_push_effect</item>
+        <item>apps_updown_effect</item>
+    </string-array>
+</resources>

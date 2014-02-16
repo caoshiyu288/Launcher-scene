@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:visible="true" android:oneshot="true">
+    <item android:drawable="@drawable/cloudy_01" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_02" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_03" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_04" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_05" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_06" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_07" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_08" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_09" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_10" android:duration="@integer/weather_scene_anim_duration"/>
+    <item android:drawable="@drawable/cloudy_11" android:duration="@integer/weather_scene_anim_duration"/>
+</animation-list>

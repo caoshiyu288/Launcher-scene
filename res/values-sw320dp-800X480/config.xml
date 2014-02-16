@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- added by hct lijunyi, 20130226 for background coordinate -->
+    <string-array name="booard_coodinate_shelf" translatable="false">
+        <item>78</item>
+        <item>237</item>
+        <item>405</item>
+        <item>580</item>
+        <item>750</item>
+    </string-array>
+
+    <string-array name="booard_coodinate_selector" translatable="false">
+        <item>56</item>
+        <item>286</item>
+        <item>514</item>
+        <item>743</item>
+    </string-array>
+    <!-- end of added by hct lijunyi, 20130226 -->
+
+</resources>

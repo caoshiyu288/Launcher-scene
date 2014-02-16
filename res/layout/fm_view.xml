@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/fm_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="@dimen/fm_img_Left"
+        android:layout_marginTop="@dimen/fm_img_Top"
+        android:src="@drawable/princess_fm" />
+
+    <ImageView 
+        android:id="@+id/imgL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/princess_pend_1"
+
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="@dimen/fm_imgL_Left"
+        android:layout_marginBottom="@dimen/fm_imgL_Bottom"
+        />
+    <ImageView 
+        android:id="@+id/imgM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/princess_pend_2"
+        android:layout_gravity="bottom|left"
+         android:layout_marginBottom="@dimen/fm_imgM_Bottom"
+         android:layout_marginLeft="@dimen/fm_imgM_Left"
+        />
+    <ImageView 
+        android:id="@+id/imgR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/princess_pend_3"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="@dimen/fm_imgR_Right"
+        android:layout_marginBottom="@dimen/fm_imgR_Bottom"
+        />
+
+        
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<resources>
+
+    <integer name="config_houseWorkspaceSpringLoadShrinkPercentage">85</integer>
+
+    <!-- added by hct lijunyi, 20130226 for background coordinate -->
+    <string-array name="booard_coodinate_shelf" translatable="false">
+        <item>94</item>
+        <item>256</item>
+        <item>424</item>
+        <item>600</item>
+        <item>770</item>
+    </string-array>
+
+    <string-array name="booard_coodinate_selector" translatable="false">
+        <item>56</item>
+        <item>288</item>
+        <item>515</item>
+        <item>745</item>
+    </string-array>
+    <!-- end of added by hct lijunyi, 20130226 -->
+
+</resources>

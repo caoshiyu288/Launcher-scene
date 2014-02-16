@@ -1,0 +1,19 @@
+<resources>
+
+    <integer name="config_houseWorkspaceSpringLoadShrinkPercentage">88</integer>
+
+    <string-array name="booard_coodinate_shelf" translatable="false">
+        <item>170</item>
+        <item>340</item>
+        <item>510</item>
+        <item>680</item>
+        <item>850</item>
+    </string-array>
+
+    <string-array name="booard_coodinate_selector" translatable="false">
+        <item>100</item>
+        <item>340</item>
+        <item>582</item>
+        <item>825</item>
+    </string-array>
+</resources>

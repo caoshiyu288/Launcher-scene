@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="app_wrap" translatable="false">
+        <item>app_icon_bg1</item>
+        <item>app_icon_bg2</item>
+        <item>app_icon_bg3</item>
+        <item>app_icon_bg4</item>
+    </string-array>
+    
+    <string-array name="preinstall_app" translatable="false">
+        <item >com.when.android.calendar365</item>
+        <item >com.aonesoft.GemFrenzy</item>
+        <item >com.baidu.searchbox</item>
+        <item >com.aonesoft.android.DDZ</item>
+        <item >com.tigerknows</item>
+        <item >com.sina.weibo</item>
+        <item >com.hct.android.sensor</item>
+    </string-array>
+
+</resources>
